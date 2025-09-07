@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sở Thích</title>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #head {
+            background-color: rgb(0, 110, 255);
+            padding: 20px;
+            overflow: hidden;
+            color: white;
+        }
+
+        section {
+            display: flex;
+        }
+
+        #left {
+            float: left;
+            width: 25%;
+            background-color: #f0f0f0;
+            padding: 20px;
+            min-height: 500px;
+        }
+
+        #main {
+            float: left;
+            width: 75%;
+            padding: 20px;
+            background-color: #fff;
+            min-height: 500px;
+        }
+
+        #left ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #left li {
+            margin-bottom: 10px;
+        }
+
+        #left a {
+            text-decoration: none;
+            color: #333;
+            padding: 8px 16px;
+            display: block;
+            background: #ddd;
+            border-radius: 4px;
+        }
+
+        #left a:hover {
+            background-color: rgb(0, 110, 255);
+            color: white;
+        }
+
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            clear: both;
+        }
+
+        @media (max-width: 600px) {
+            section {
+                flex-direction: column;
+            }
+            #left, #main {
+                width: 100%;
+            }
+        }
+    </style> 
+</head>
+
+<body>
+    <div id="head">
+        <img src=image/IMG.PNG.jpg alt="avt" width="100" height="100" border="5">
+        <h1 style="float: right;">Te Hat Lo</h1>
+    </div>
+
+    <div id="left">
+        <h2>My Infor</h2>
+        <ul>
+            <li><a href="Home.html">home</a></li>
+            <li><a href="MyInfor.html">My Information</a></li>
+            <li><a href="Trinhdo.html">Education</a></li>
+            <li><a href="kinhngiem.html">Experience</a></li>
+            <li><a href="myFavorite.html">Favorites</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="main">
+        <h2>Sở thích của tôi</h2>
+        <ul style="list-style-type: square; padding-left: 20px;">
+            <li><strong>Lập trình:</strong> Tìm hiểu về các công nghệ mới và xây dựng các dự án cá nhân nhỏ để giải quyết vấn đề trong cuộc sống.</li>
+            <li><strong>Đọc sách:</strong> Tôi thích đọc các sách về khoa học, công nghệ và phát triển bản thân.</li>
+            <li><strong>Chơi thể thao:</strong>Cầu Lông</li>
+            <li><strong>Nghe nhạc:</strong> Âm nhạc giúp tôi tập trung hơn khi làm việc.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p style="text-align:center;">&copy copyright by Te Hat Lo</p>
+    </footer>
+</body>
+</html>

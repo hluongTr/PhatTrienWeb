@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kinh nghiệm</title>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #head {
+            background-color: rgb(0, 110, 255);
+            padding: 20px;
+            overflow: hidden;
+            color: white;
+        }
+
+        section {
+            display: flex;
+        }
+
+        #left {
+            float: left;
+            width: 25%;
+            background-color: #f0f0f0;
+            padding: 20px;
+            min-height: 500px;
+        }
+
+        #main {
+            float: left;
+            width: 75%;
+            padding: 20px;
+            background-color: #fff;
+            min-height: 500px;
+        }
+
+        #left ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #left li {
+            margin-bottom: 10px;
+        }
+
+        #left a {
+            text-decoration: none;
+            color: #333;
+            padding: 8px 16px;
+            display: block;
+            background: #ddd;
+            border-radius: 4px;
+        }
+
+        #left a:hover {
+            background-color: rgb(0, 110, 255);
+            color: white;
+        }
+
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            clear: both;
+        }
+
+        @media (max-width: 600px) {
+            section {
+                flex-direction: column;
+            }
+            #left, #main {
+                width: 100%;
+            }
+        }
+    </style> 
+</head>
+
+<body>
+    <div id="head">
+        <img src=image/IMG.PNG.jpg alt="avt" width="100" height="100" border="5">
+        <h1 style="float: right;">Trần Hải Lương</h1>
+    </div>
+
+    <div id="left">
+        <h2>My Infor</h2>
+        <ul>
+            <li><a href="Home.html">home</a></li>
+            <li><a href="MyInfor.html">My Information</a></li>
+            <li><a href="Trinhdo.html">Education</a></li>
+            <li><a href="kinhngiem.html">Experience</a></li>
+            <li><a href="myFavorite.html">Favorites</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="main">
+        <h2>Kinh nghiệm làm việc</h2>
+        <h3>Công ty công nghệ ABC - Thực tập sinh Full-stack (06/2025 - 09/2025)</h3>
+        <ul style="list-style-type: disc; padding-left: 20px;">
+            <li>Tham gia phát triển giao diện người dùng cho sản phẩm website thương mại điện tử của công ty.</li>
+            <li>Sử dụng HTML, CSS, JavaScript (ReactJS) để xây dựng các component có khả năng tái sử dụng.</li>
+            <li>Phối hợp với đội ngũ backend để tích hợp API.</li>
+            <li>Học hỏi và áp dụng quy trình làm việc với Git, Jira.</li>
+        </ul>
+
+        <h3>Dự án cá nhân - Website quản lý ghi chú (2023)</h3>
+        <ul style="list-style-type: disc; padding-left: 20px;">
+            <li>Tự phát triển một ứng dụng web cho phép người dùng tạo, sửa, xóa ghi chú cá nhân.</li>
+            <li>Frontend xây dựng bằng Vue.js.</li>
+            <li>Backend sử dụng Node.js và Express.js, cơ sở dữ liệu MongoDB.</li>
+            <li>Dự án giúp củng cố kiến thức về phát triển full-stack.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p style="text-align:center;">&copy copyright by Te Hat Lo</p>
+    </footer>
+</body>
+</html>
